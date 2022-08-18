@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bace.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<style>
+    body,
+    html {
+        background-color: #f0f0f0;
+    }
+
+    .all {
+        background-color: #f0f0f0 !important;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color: red !important;
+    }
+
+    .wrap1 {
+        max-width: 1200px;
+
+        margin: auto;
+    }
+
+    .wrap1>h3 {
+        text-align: left;
+        font-size: 26px;
+        padding-left: 20px;
+        font-family: "ysbth", Helvetica, Arial, sans-serif !important;
+    }
+
+    .wrap1>h3>span {
+        width: 14px;
+        height: 22px;
+        cursor: pointer;
+        transform: skew(-10deg);
+        -webkit-transform: skew(-10deg);
+        -moz-transform: skew(-10deg);
+        -o-transform: skew(-10deg);
+        -ms-transform: skew(-10deg);
+        background-color: #c9310c;
+        margin: 0 auto;
+        display: inline-block;
+        margin-right: 12px;
+        position: relative;
+        top: 2px;
+    }
+
+    .wrap1>h3>b {
+        color: #c9310c;
+        margin-left: 10px;
+        font-family: "ysbth", Helvetica, Arial, sans-serif !important;
+    }
+
+    .list img {
+        width: 70px;
+        height: 70px;
+        margin-top: 45px;
+        margin-bottom: 35px;
+    }
+
+    .h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #333;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .p {
+        font-size: 14px;
+        color: #999;
+        display: block;
+    }
+
+    /* .list {
+        height: 320px;
+    } */
+
+    .list .thumbnail {
+        height: 320px;
+
+    }
+
+    .all .thumbnail {
+        transition: all .3s linear;
+    }
+
+    .all .thumbnail:hover {
+        transform: translateY(-8px);
+    }
+</style>
+
+<body>
+
+    <div>
+        <div>
+            <nav class="navbar navbar-default " style="z-index:999 ;">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand " href="index.html"><img src="img/logo.png" alt=""></a>
+                    </div>
+
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin: auto;">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#" id="sj">红魔</a></li>
+                            <li><a href="phone.html">努比亚</a></li>
+                            <li><a href="serve.html">智能生态</a></li>
+                            <li><a href="#">服务</a></li>
+                            <li><a href="#">品牌</a></li>
+                            <li><a href="#">社区</a></li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><img src="img/ren.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/car.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/ss.png" alt=""></a></li>
+
+
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+    </div>
+
+
+    <div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <a href="#" class="thumbnail">
+                        <img src="img/2.1.jpg" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="all">
+        <div class="wrap1">
+            <h3>
+                <span></span>
+                自组服务
+                <b>SERVICE</b>
+            </h3>
+            <div class="">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 list">
+                            <div class="thumbnail">
+                                <img src="img/2.1.png" alt="...">
+                                <div class="caption">
+                                    <span class="h4">售后服务</span>
+                                    <span class="p">就近为您提供一站式专业服务</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 list">
+                            <div class="thumbnail">
+                                <img src="img/2.2.png" alt="...">
+                                <div class="caption">
+                                    <span class="h4">软件下载</span>
+                                    <span class="p">RMO更新,畅享无阻</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 list">
+                            <div class="thumbnail">
+                                <img src="img/2.3.png" alt="...">
+                                <div class="caption">
+                                    <span class="h4">网点预约</span>
+                                    <span class="p">一键预约,快速维修</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 list">
+                            <div class="thumbnail">
+                                <img src="img/2.4.png" alt="...">
+                                <div class="caption">
+                                    <span class="h4">寄修服务</span>
+                                    <span class="p">足不出户,专业服务</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 list">
+                            <div class="thumbnail">
+                                <img src="img/2.5.png" alt="...">
+                                <div class="caption">
+                                    <span class="h4">保障服务</span>
+                                    <span class="p">碎屏延保,加倍保障</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 list">
+                            <div class="thumbnail">
+                                <img src="img/2.6.png" alt="...">
+                                <div class="caption">
+                                    <span class="h4">真伪查询</span>
+                                    <span class="p">明辨真伪,放心使用</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 list">
+                            <div class="thumbnail">
+                                <img src="img/2.7.png" alt="...">
+                                <div class="caption">
+                                    <span class="h4">非保价查询</span>
+                                    <span class="p">官方配件,价格透明</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 list">
+                            <div class="thumbnail">
+                                <img src="img/2.8.png" alt="...">
+                                <div class="caption">
+                                    <span class="h4">常见问题</span>
+                                    <span class="p">条款说明,答疑解惑</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="all">
+            <div class="wrap1">
+                <h3>
+                    <span></span>
+                    联系客服
+                    <b>CONTACT</b>
+                </h3>
+                <div class="">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-3 list">
+                                <div class="thumbnail">
+                                    <img src="img/2.9.png" alt="...">
+                                    <div class="caption">
+                                        <span class="h4">官方微博</span>
+                                        <span class="p">关注我们</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3 list">
+                                <div class="thumbnail">
+                                    <img src="img/3.0.png" alt="...">
+                                    <div class="caption">
+                                        <span class="h4">官方微信</span>
+                                        <span class="p">关注我们</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3 list">
+                                <div class="thumbnail">
+                                    <img src="img/3.1.png" alt="...">
+                                    <div class="caption">
+                                        <span class="h4">在线服务</span>
+                                        <span class="p">联系我们</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3 list">
+                                <div class="thumbnail">
+                                    <img src="img/3.2.png" alt="...">
+                                    <div class="caption">
+                                        <span class="h4">服务热线</span>
+                                        <span class="p">400-700-6600</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- 页脚 -->
+            <div class="footer">
+                <div class="foot">
+                    <div class="container">
+                        <div class="row">
+                            <div class=" col-xs-3 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="img/14.png" alt="...">
+                                    <div class="caption">
+                                        <span>官方正品</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" col-xs-3 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="img/15.png" alt="...">
+                                    <div class="caption">
+                                        <span>7天无理由</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" col-xs-3 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="img/16.png" alt="...">
+                                    <div class="caption">
+                                        <span>上门维修</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class=" col-xs-3 col-md-3">
+                                <div class="thumbnail">
+                                    <img src="img/17.png" alt="...">
+                                    <div class="caption">
+                                        <span>全场包邮</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="foot-list">
+                    <div class="container">
+                        <div class="row">
+                            <div class="l">
+                                <div class="col-md-9">
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-6">
+                                            <p>关于我们 <i><img src="img/jh.png" alt=""></i></p>
+                                            <ul>
+                                                <li>关于红魔</li>
+                                                <li>联系我们</li>
+                                                <li>商家入驻</li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
+
+                                            <p>手机 <i><img src="img/jh.png" alt=""></i></p>
+                                            <ul>
+                                                <li>红魔7Pro</li>
+                                                <li>红魔7</li>
+                                                <li>红魔6S Pro</li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
+                                            <p>热门活动 <i><img src="img/jh.png" alt=""></i></p>
+                                            <ul>
+                                                <li>NB码通道</li>
+                                                <li>以旧换新</li>
+                                                <li>全民分销</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
+                                            <p>服务支持 <i><img src="img/jh.png" alt=""></i></p>
+                                            <ul>
+                                                <li>会员服务</li>
+                                                <li>售后服务</li>
+                                                <li>售后网点</li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="r">
+                                <div class="col-md-3">
+                                    <p>
+                                        <b>400-700-6600</b>
+                                    </p>
+                                    <div style="margin-top: 20px;">
+                                        <a href="" class="online">在线客服</a>
+                                    </div>
+                                    <div class="data">
+                                        <p>周一到周日8:30-20:30</p>
+                                    </div>
+
+
+                                    <div class="icon">
+                                        <a href=""><i><img src="img/27.png" alt=""></i></a>
+                                        <a href=""><i><img src="img/28.png" alt=""></i></a>
+                                        <a href=""><i><img src="img/29.png" alt=""></i></a>
+                                        <a href=""><i><img src="img/30.png" alt=""></i></a>
+                                        <a href=""><i><img src="img/31.png" alt=""></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <script>
+                $(window).resize(function () {
+                    if (document.body.scrollWidth < 780) {
+                        $('.l ul').slideUp()
+                        $('.l p i').css('display', 'block')
+
+                        $('.r').css({
+                            'display': 'flex',
+                            'justify-content': 'center'
+
+                        })
+
+                        $('.l p').each(function (i, ele) {
+                            $(ele).click(function (e) {
+                                $('.l ul').eq(i).slideToggle()
+                            })
+                        });
+
+
+
+
+                    } else {
+                        $('.l ul').slideDown()
+                        $('.l p i').css('display', 'none')
+                        $('.r').css('display', 'block')
+
+
+                    }
+
+                });
+
+            </script>
+</body>
+
+</html>
